@@ -43,8 +43,8 @@ hub:
   extraVolumes: []
   extraVolumeMounts: []
   image:
-    name: jupyterhub/k8s-hub
-    tag: '0.8.2'
+    name: ritchie46/z2jhub-fork-0.8.2
+    tag: 'latest'
   resources:
     requests:
       cpu: 200m
